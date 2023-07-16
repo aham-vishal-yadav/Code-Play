@@ -60,7 +60,7 @@ const About = () => {
 
                                     {/* personal information */}
                                     <div>
-                                        <h3 className="text-4xl font-medium my-5 dark:text-white">
+                                        <h3 className="text-4xl font-medium my-5 dark:text-green">
                                             Personal Info
                                         </h3>
                                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -69,10 +69,10 @@ const About = () => {
                                                     <FaLinkedin />
                                                 </span>
                                                 <div className="space-y-1">
-                                                    <p className="text-xs text-gray-lite dark:text-color-910">
+                                                    <p className="text-xs  dark:text-color-910">
                                                         LinkedIn
                                                     </p>
-                                                    <a href="https://www.linkedin.com/in/ahamvishalyadav/" target="_blank"><h6 className="font-medium dark:text-white">
+                                                    <a href="https://www.linkedin.com/in/ahamvishalyadav/" target="_blank"><h6 className="font-medium dark:text-green">
                                                         Connect on linkedin
                                                     </h6></a>
                                                 </div>
@@ -82,10 +82,10 @@ const About = () => {
                                                     <FaMapMarkerAlt />
                                                 </span>
                                                 <div className="space-y-1">
-                                                    <p className="text-xs text-gray-lite dark:text-color-910">
+                                                    <p className="text-xs  dark:text-color-910">
                                                         Location
                                                     </p>
-                                                    <h6 className="font-medium dark:text-white">
+                                                    <h6 className="font-medium text-green ">
                                                         Delhi NCR
                                                     </h6>
                                                 </div>
@@ -95,10 +95,10 @@ const About = () => {
                                                     <FaEnvelopeOpenText />
                                                 </span>
                                                 <div className="space-y-1">
-                                                    <p className="text-xs text-gray-lite dark:text-color-910">
+                                                    <p className="text-xs  dark:text-color-910">
                                                         Email
                                                     </p>
-                                                    <h6 className="font-medium dark:text-white">
+                                                    <h6 className="font-medium dark:text-green">
                                                         vishalzoned@gmail.com
                                                     </h6>
                                                 </div>
@@ -111,7 +111,7 @@ const About = () => {
                                                     <p className="text-xs text-gray-lite dark:text-color-910">
                                                         Portfolio
                                                     </p>
-                                                    <h6 className="font-medium dark:text-white">
+                                                    <h6 className="font-medium dark:text-green">
                                                         <a href="vishalzoned.vercel.app">Browse</a>
                                                     </h6>
                                                 </div>
