@@ -112,7 +112,7 @@ const About = () => {
                                                         Portfolio
                                                     </p>
                                                     <h6 className="font-medium dark:text-green">
-                                                        <a href="vishalzoned.vercel.app">Browse</a>
+                                                        <a href="https://vishalzoned.vercel.app">Browse</a>
                                                     </h6>
                                                 </div>
                                             </div>
