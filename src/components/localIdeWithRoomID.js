@@ -2,7 +2,7 @@ import React, { useLayoutEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import LocalIDE from './local-ide'
 import io from 'socket.io-client'
-const socket = io.connect('https://code-playground-server.herokuapp.com/')
+const socket = io.connect('https://code-play-app.vercel.app/')
 
 function LocalIdeWithRoomID() {
 
@@ -26,7 +26,7 @@ function LocalIdeWithRoomID() {
     return (
         <>
             {
-                roomValid ? <LocalIDE roomID={ id } name={ name } /> : <></>
+                roomValid ? <LocalIDE roomID={id} name={name} /> : <></>
             }
         </>
 

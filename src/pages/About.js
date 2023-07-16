@@ -3,8 +3,9 @@ import {
     FaEnvelopeOpenText,
     FaMapMarkerAlt,
     FaLinkedin,
-    FaRegCalendarAlt,
+
     FaGithub,
+    FaSuitcase,
 } from "react-icons/fa";
 
 
@@ -104,14 +105,14 @@ const About = () => {
                                             </div>
                                             <div className="flex">
                                                 <span className="text-color-50 dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-">
-                                                    <FaGithub />
+                                                    <FaSuitcase />
                                                 </span>
                                                 <div className="space-y-1">
                                                     <p className="text-xs text-gray-lite dark:text-color-910">
-                                                        Github
+                                                        Portfolio
                                                     </p>
                                                     <h6 className="font-medium dark:text-white">
-                                                        <a href="https://github.com/aham-vishal-yadav">Browse</a>
+                                                        <a href="vishalzoned.vercel.app">Browse</a>
                                                     </h6>
                                                 </div>
                                             </div>
